@@ -1,7 +1,6 @@
 %article.video_category
  .videos.row
-  .video.col-sm-2
-   - @videos.each do |video|
-    = image_tag("video.small_cover_url")
+  - @videos.each do |video|
+   = image_tag(video.small_cover_url)
 
 
