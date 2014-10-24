@@ -4,4 +4,5 @@ Myflix::Application.routes.draw do
   root 'videos#home'
 
   resources :videos
+  resources :categories
 end
