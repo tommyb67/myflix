@@ -13,4 +13,5 @@ Video.create(title: "Futurama", description: "Crazy cartoon about the future", s
 Video.create(title: "Family Guy", description: "Disfunctional family comedy", small_cover_url: "https://s3.amazonaws.com/myflix-tb/family_guy.jpg", large_cover_url: "https://s3.amazonaws.com/myflix-tb/family_guy_large.jpg")
 Video.create(title: "Monk", description: "OCD Detective", small_cover_url: "https://s3.amazonaws.com/myflix-tb/monk.jpg", large_cover_url: "https://s3.amazonaws.com/myflix-tb/monk_large.jpg")
 
-Category.create(name: "TV Comedy")
+Category.create(name: "Comedies")
+Category.create(name: "Dramas")
